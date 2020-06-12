@@ -1,8 +1,9 @@
 pragma solidity ^0.6.0;
 
-import 'https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2Factory.sol';
+
 import 'https://github.com/Uniswap/uniswap-lib/blob/master/contracts/libraries/TransferHelper.sol';
 
+import './interfaces/IUniswapV2Factory.sol';
 import './interfaces/IUniswapV2Router02.sol';
 import './libraries/UniswapV2Library.sol';
 import './libraries/SafeMath.sol';
